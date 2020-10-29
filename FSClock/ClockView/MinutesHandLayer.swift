@@ -4,7 +4,7 @@ import UIKit
 
 class MinutesHandLayer: CALayer {
     let length: CGFloat = 0.8
-    let color = UIColor.yellow
+    let color = UIColor.lightText
     let lineWidth: CGFloat = 3
     let dotRadius: CGFloat = 6
     var minutes: CGFloat = 8

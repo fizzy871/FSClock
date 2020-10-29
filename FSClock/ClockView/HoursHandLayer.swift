@@ -4,7 +4,7 @@ import UIKit
 
 class HoursHandLayer: CALayer {
     let length: CGFloat = 0.6
-    let color = UIColor.red
+    let color = UIColor.lightGray
     let lineWidth: CGFloat = 5
     let dotRadius: CGFloat = 8
     var hours: CGFloat = 4

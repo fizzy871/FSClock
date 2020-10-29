@@ -4,7 +4,7 @@ import UIKit
 
 class SecondsHandLayer: CALayer {
     let length: CGFloat = 0.7
-    let color = UIColor.magenta
+    let color = UIColor.red
     let lineWidth: CGFloat = 2
     let dotRadius: CGFloat = 4
     var seconds: CGFloat = 40

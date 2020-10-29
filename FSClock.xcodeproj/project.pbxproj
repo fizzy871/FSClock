@@ -17,6 +17,7 @@
 		8A0A895C24426F8A00127BE9 /* MinutesHandLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A895B24426F8A00127BE9 /* MinutesHandLayer.swift */; };
 		8A0A895E2442747100127BE9 /* HoursHandLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A895D2442747100127BE9 /* HoursHandLayer.swift */; };
 		8A0A8960244275C000127BE9 /* SecondsHandLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A895F244275C000127BE9 /* SecondsHandLayer.swift */; };
+		8AC692CF254A76D900CE8F5B /* FaceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC692CE254A76D900CE8F5B /* FaceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8A0A895B24426F8A00127BE9 /* MinutesHandLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesHandLayer.swift; sourceTree = "<group>"; };
 		8A0A895D2442747100127BE9 /* HoursHandLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursHandLayer.swift; sourceTree = "<group>"; };
 		8A0A895F244275C000127BE9 /* SecondsHandLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondsHandLayer.swift; sourceTree = "<group>"; };
+		8AC692CE254A76D900CE8F5B /* FaceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8A0A895924426DCB00127BE9 /* ClockView.swift */,
+				8AC692CE254A76D900CE8F5B /* FaceLayer.swift */,
 				8A0A895B24426F8A00127BE9 /* MinutesHandLayer.swift */,
 				8A0A895D2442747100127BE9 /* HoursHandLayer.swift */,
 				8A0A895F244275C000127BE9 /* SecondsHandLayer.swift */,
@@ -164,6 +167,7 @@
 				8A0A895A24426DCB00127BE9 /* ClockView.swift in Sources */,
 				8A0A894524425A9500127BE9 /* AppDelegate.swift in Sources */,
 				8A0A895E2442747100127BE9 /* HoursHandLayer.swift in Sources */,
+				8AC692CF254A76D900CE8F5B /* FaceLayer.swift in Sources */,
 				8A0A894724425A9500127BE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

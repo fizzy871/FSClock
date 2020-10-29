@@ -5,6 +5,7 @@ import UIKit
 @IBDesignable class ClockView: UIView {
     // MARK: Private variables
     private lazy var displayLink = CADisplayLink(target: self, selector: #selector(displayLinkAction(displayLink:)))
+    private let faceLayer = FaceLayer()
     private let hoursHandLayer = HoursHandLayer()
     private let minutesHandLayer = MinutesHandLayer()
     private let secondsHandLayer = SecondsHandLayer()
@@ -24,6 +25,8 @@ import UIKit
     }
     private func setup() {
         self.backgroundColor = .gray
+        self.layer.masksToBounds = true
+        self.layer.addSublayer(self.faceLayer)
         self.layer.addSublayer(self.hoursHandLayer)
         self.layer.addSublayer(self.minutesHandLayer)
         self.layer.addSublayer(self.secondsHandLayer)
@@ -34,6 +37,9 @@ import UIKit
     }
     override func layoutSubviews() {
         super.layoutSubviews()
+        self.layer.cornerRadius = self.layer.bounds.width/2
+        self.faceLayer.frame = self.layer.bounds
+        self.faceLayer.setNeedsDisplay()
         self.hoursHandLayer.frame = self.layer.bounds
         self.hoursHandLayer.setNeedsDisplay()
         self.minutesHandLayer.frame = self.layer.bounds
